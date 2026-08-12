@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'times new roman', serif;
+}
+
+body{
+background-color: rgb(105, 105, 115);
+color:white;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.container{
+display:flex;
+flex-direction:column;
+gap:1.5rem;
+background-color:grey;
+padding:20px;
+border-radius:5px;
+width: 50%;
+max-width:600px;
+}

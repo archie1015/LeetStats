@@ -102,3 +102,24 @@ body {
 .hidden {
     display: none;
 }
+.stats-card{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:space-evenly;
+}
+h4{
+    font-size:1rem;
+    padding:10px;
+}
+
+.card{
+background-color: rgb(52, 213, 103);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 45%;
+    max-width: 290px;
+}

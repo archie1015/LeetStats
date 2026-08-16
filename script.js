@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
         card.classList.add('card');
 
         card.innerHTML = `
-            <h3>${item.label}</h3>
+            <h4>${item.label}</h4>
             <p>${item.value}</p>
         `;
 
